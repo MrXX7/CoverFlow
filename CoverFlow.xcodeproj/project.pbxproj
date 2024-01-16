@@ -11,6 +11,7 @@
 		AD323A312B56850600041F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD323A302B56850600041F67 /* ContentView.swift */; };
 		AD323A332B56850700041F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD323A322B56850700041F67 /* Assets.xcassets */; };
 		AD323A372B56850700041F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD323A362B56850700041F67 /* Preview Assets.xcassets */; };
+		AD323A3F2B56858300041F67 /* CoverFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD323A3E2B56858300041F67 /* CoverFlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AD323A322B56850700041F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD323A342B56850700041F67 /* CoverFlow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoverFlow.entitlements; sourceTree = "<group>"; };
 		AD323A362B56850700041F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD323A3E2B56858300041F67 /* CoverFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		AD323A2D2B56850600041F67 /* CoverFlow */ = {
 			isa = PBXGroup;
 			children = (
+				AD323A3D2B56856A00041F67 /* Helpers */,
 				AD323A2E2B56850600041F67 /* CoverFlowApp.swift */,
 				AD323A302B56850600041F67 /* ContentView.swift */,
 				AD323A322B56850700041F67 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				AD323A362B56850700041F67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD323A3D2B56856A00041F67 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD323A3E2B56858300041F67 /* CoverFlowView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				AD323A312B56850600041F67 /* ContentView.swift in Sources */,
 				AD323A2F2B56850600041F67 /* CoverFlowApp.swift in Sources */,
+				AD323A3F2B56858300041F67 /* CoverFlowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
